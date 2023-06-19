@@ -1,0 +1,19 @@
+.grid{
+    max-width: 600px;
+    margin: auto;
+    border: 1px solid #ccc;
+    display: grid;
+}
+
+.item{
+    background-color: aqua;
+    margin: 5px;
+    text-align: center;
+}
+.tamplate-1{
+    grid-template-columns: 200px 200px 200px;
+ }
+ .tamplate-2{
+    grid-template-columns: 1fr 2fr;
+ }
+

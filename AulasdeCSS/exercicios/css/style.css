@@ -1,0 +1,89 @@
+body{
+    background-color: blanchedalmond;
+}
+h1{
+    text-align: center;
+}
+
+.caixa{
+    display: flex;
+    justify-content: flex-start;
+}
+.caixa .div1{
+    background-color: green;
+    width: 300px;
+    height: 60px;
+}
+.caixa .div2{
+    background-color: blue;
+    width: 300px;
+    height: 60px;
+}
+.caixa .div3{
+    background-color: red;
+    width: 300px;
+    height: 60px;
+}
+
+.linha2{
+    margin-top: 40px;
+    display: flex;
+    justify-content: flex-end;
+}
+.linha2 .div1{
+    background-color: green;
+    width: 300px;
+    height: 60px;
+}
+.linha2 .div2{
+    background-color: blue;
+    width: 300px;
+    height: 60px;
+}
+.linha2 .div3{
+    background-color: red;
+    width: 300px;
+    height: 60px;
+}
+
+.linha3{
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+.linha3 .div1{
+    background-color: green;
+    width: 300px;
+    height: 60px;
+}
+.linha3 .div2{
+    background-color: blue;
+    width: 300px;
+    height: 60px;
+}
+.linha3 .div3{
+    background-color: red;
+    width: 300px;
+    height: 60px;
+}
+
+.linha4{
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-around;
+}
+.linha4 .div1{
+    background-color: green;
+    width: 300px;
+    height: 60px;
+}
+.linha4 .div2{
+    background-color: blue;
+    width: 300px;
+    height: 60px;
+}
+.linha4 .div3{
+    background-color: red;
+    width: 300px;
+    height: 60px;
+}
